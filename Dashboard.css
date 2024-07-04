@@ -1,0 +1,67 @@
+.dashboard-cont {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dashboard-cont > h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.expense-total {
+  background-color: #43214a;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.expense-total > h2 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.expense-total > p {
+  color: rgb(212, 205, 205);
+}
+
+.breakdown-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.breakdown-head > h3 {
+  font-size: 1.5rem;
+  color: #999798;
+}
+
+.user-expense-cont {
+  overflow-y: auto;
+  max-height: 30vh;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-cont {
+    padding: 15px;
+  }
+
+  .expense-total {
+    padding: 15px;
+  }
+
+  .breakdown-head > h3 {
+    font-size: 1.2rem;
+  }
+
+  .user-expense-cont {
+    max-height: 40vh;
+  }
+}

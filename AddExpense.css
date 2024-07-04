@@ -1,0 +1,40 @@
+.expense {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.first-form, .second-form, .category-form {
+  margin-bottom: 10px;
+}
+
+.amount-label {
+  margin-right: 15px;
+}
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #42224a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  input[type="text"] {
+    width: calc(100% - 30px);
+  }
+}
